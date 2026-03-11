@@ -1,0 +1,1506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2329315C3339D3291E714609 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6011ACCF644848F38532E43D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D499CF736EC5FDAB17808ED7 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D4E60D5A38F2405E8FF8DF0B /* PBXTargetDependency */,
+				F1AF5E74333D4EC9991F3493 /* PBXTargetDependency */,
+				E3A74E15D01E403E9475A99A /* PBXTargetDependency */,
+				7460FF068F954B389FBD3CF5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		3A9D0789BDC228E07E89D62A /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6AEA7F9A360846CBA651A343 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				52C4E76D245F43C59A1766A6 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		742920DBE680D69C486B0161 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5D047847E7614DA9BD0A4EB5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D38ABA3E8C50F804CF1E27BB /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		19ACEBD2A26A4F1F8B9F7E58 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbrush.cpp */ = {isa = PBXBuildFile; fileRef = 34D5A279EFBA482F8D8C2F9C /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbrush.cpp */; };
+		210096A12D534FF8AA13CB3E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawable.cpp */ = {isa = PBXBuildFile; fileRef = CDAA556D62194BDCA0AD1E50 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawable.cpp */; };
+		259449372CD24EB392C4C6C4 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9A0E3AC537044A08AE2CFBDD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/CMakeLists.txt */; };
+		2BDDECE43B2740B286B30E8B /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieanimation.cpp */ = {isa = PBXBuildFile; fileRef = 11FC1E1D9A144BEEB3CE6ACD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieanimation.cpp */; };
+		2F64B1F468784D47A508C17A /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieproxymodel.cpp */ = {isa = PBXBuildFile; fileRef = 5DE0DE53D7084F6D990F3CF7 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieproxymodel.cpp */; };
+		2FA8E302AA9F45FFA5B8D881 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdasher.cpp */ = {isa = PBXBuildFile; fileRef = 36A32873B28740F0BD9786E3 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdasher.cpp */; };
+		3589B317191B47799A67D5BE /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8AECA012DAB64AD1B54307C2 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/CMakeLists.txt */; };
+		35DAA13C8A664599883DF155 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdebug.cpp */ = {isa = PBXBuildFile; fileRef = B8D69054F3744272AFF1A423 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdebug.cpp */; };
+		390E75B93AA748C3A9727C73 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_neon.cpp */ = {isa = PBXBuildFile; fileRef = AA5B99EC072046A9AC6FAB04 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_neon.cpp */; };
+		42DE339F62DC4C098E4021B2 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c/lottieanimation_capi.cpp */ = {isa = PBXBuildFile; fileRef = F4BE3149C05D492FA2190EA8 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c/lottieanimation_capi.cpp */; };
+		4586150854E94EF2BC9DECBB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/lottie2gif.cpp */ = {isa = PBXBuildFile; fileRef = B118695BEB514C96AEFFC441 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/lottie2gif.cpp */; };
+		45D86FAFD7C74DB8936EC4EC /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper.cpp */ = {isa = PBXBuildFile; fileRef = 649706F2CC944AC2B47C6E52 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper.cpp */; };
+		4B0D8458F52F4267961C230B /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/stb_image.cpp */ = {isa = PBXBuildFile; fileRef = 5530068D30CA41A4829F195F /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/stb_image.cpp */; };
+		55C7206B549F4B3F9E71931F /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vcompositionfunctions.cpp */ = {isa = PBXBuildFile; fileRef = BF26C20A8DC24228A67DB59A /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vcompositionfunctions.cpp */; };
+		57E087A8759A4B19965BC83E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_math.cpp */ = {isa = PBXBuildFile; fileRef = E14C995B1ACC411297104DAB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_math.cpp */; };
+		5B3DB06302D848C19B4CC619 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiekeypath.cpp */ = {isa = PBXBuildFile; fileRef = 9A386E265A6046E1B42072BB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiekeypath.cpp */; };
+		5D46629B3C7C48739B1E8334 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_sse2.cpp */ = {isa = PBXBuildFile; fileRef = 43CE5E1E7F344812A542E4CA /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_sse2.cpp */; };
+		5E59EC77F27C47D8811C7DE3 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieloader.cpp */ = {isa = PBXBuildFile; fileRef = DD2CA77EECBD439ABB417EC0 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieloader.cpp */; };
+		705CA71A20C74570A2DCB001 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vimageloader.cpp */ = {isa = PBXBuildFile; fileRef = 77690EF0DE874E7DB42EF5FF /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vimageloader.cpp */; };
+		78C2A216318942CA872EBD2A /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vinterpolator.cpp */ = {isa = PBXBuildFile; fileRef = CABDDA7205E94E2AB306F313 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vinterpolator.cpp */; };
+		7B1E0EB45A8746EEA8DDACD3 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieparser.cpp */ = {isa = PBXBuildFile; fileRef = A33C397A8B2B479D899E043D /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieparser.cpp */; };
+		7C908ADBD7144790BDA33FDA /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiemodel.cpp */ = {isa = PBXBuildFile; fileRef = 2A921ACA257641F18A7F72FC /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiemodel.cpp */; };
+		81F01FB217574D57AA1E1AC6 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrect.cpp */ = {isa = PBXBuildFile; fileRef = 11EDC3430715405F916B5D55 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrect.cpp */; };
+		967D49FE02714DC58792404F /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman/vregion.cpp */ = {isa = PBXBuildFile; fileRef = E990959D9A834DDAB143EA6E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman/vregion.cpp */; };
+		993589ED0C8B4E228FD94364 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbezier.cpp */ = {isa = PBXBuildFile; fileRef = 350E1C9C4D19405FB55A7FAD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbezier.cpp */; };
+		A8058F5BF9434F9EAFA3ECB0 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrle.cpp */ = {isa = PBXBuildFile; fileRef = A2550120861C4EEDB3CB56BD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrle.cpp */; };
+		A9E58CC1EC914A0D8284A845 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/velapsedtimer.cpp */ = {isa = PBXBuildFile; fileRef = B6F2E55ED7B74D509BA4DD15 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/velapsedtimer.cpp */; };
+		AE28644F51B84E7EAB803A24 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbitmap.cpp */ = {isa = PBXBuildFile; fileRef = 124EE29920B64EF9AB47D336 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbitmap.cpp */; };
+		C1E318CB6AA9464A8F347F3E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_stroker.cpp */ = {isa = PBXBuildFile; fileRef = 9589AC5DAFFD428D980E9BE0 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_stroker.cpp */; };
+		C4E018C780244CA2A1F4C8BA /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vraster.cpp */ = {isa = PBXBuildFile; fileRef = 24F485293F9C4E98A55A4B71 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vraster.cpp */; };
+		D211CCFCCD67403D9EDBFB8A /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A7A7263958534FBB96486B3B /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/CMakeLists.txt */; };
+		D62A4B6FDADE4D62B6EC2FD9 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_raster.cpp */ = {isa = PBXBuildFile; fileRef = AA06883D53554DF383911A4C /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_raster.cpp */; };
+		D9F4ABB42D2E435DB6EB94F7 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vmatrix.cpp */ = {isa = PBXBuildFile; fileRef = 9AC1D7C2BEEB4C239CB683AB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vmatrix.cpp */; };
+		E580709C44E14DE092E6D6F1 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieitem.cpp */ = {isa = PBXBuildFile; fileRef = EEEB521AF8F04999ABBB2F1D /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieitem.cpp */; };
+		F12D1A15FF674B439AA4C49E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpathmesure.cpp */ = {isa = PBXBuildFile; fileRef = 629237078DF843E4B447B169 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpathmesure.cpp */; };
+		F54877DAAE60489CA8A2AEB6 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpainter.cpp */ = {isa = PBXBuildFile; fileRef = FA2E47512BB04B47B1154FFF /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpainter.cpp */; };
+		FD975FFEF18C48628B6A45CB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpath.cpp */ = {isa = PBXBuildFile; fileRef = 043B4DDCD8884BFBAD9BC607 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpath.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		088B53A20C5C446F8998A8D7 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		50763D6DA7BF48BDB2D7E64F /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		ABA899D0ED47404BBBD793DE /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BBF5F3C1D09A4AC98FC0E735 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		049C11AAFA214F58B2722E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742920DBE680D69C486B0161;
+			remoteInfo = ZERO_CHECK;
+		};
+		075B60A87D9B486890837AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742920DBE680D69C486B0161;
+			remoteInfo = ZERO_CHECK;
+		};
+		2DEF288B29F347C781AD3278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF11E329B35A9157AFB27442;
+			remoteInfo = "rlottie-image-loader";
+		};
+		4BEB2F40B61A48C6952056F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2329315C3339D3291E714609;
+			remoteInfo = ALL_BUILD;
+		};
+		879A433966C5406A899C50E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742920DBE680D69C486B0161;
+			remoteInfo = ZERO_CHECK;
+		};
+		8FEE74D894F74C56A2E07163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F2FB2081CD07F54FB63133;
+			remoteInfo = rlottie;
+		};
+		9C91931A362B45BEA6B9B26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A740186FF898B049BB5FD5B0;
+			remoteInfo = lottie2gif;
+		};
+		ADB30D8E14F94FBCA7736CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F2FB2081CD07F54FB63133;
+			remoteInfo = rlottie;
+		};
+		E9C1709EBE0D423F8F7B8D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12AE8E63E554D33A9D2DECD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742920DBE680D69C486B0161;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043B4DDCD8884BFBAD9BC607 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vpath.cpp; path = src/vector/vpath.cpp; sourceTree = SOURCE_ROOT; };
+		11EDC3430715405F916B5D55 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vrect.cpp; path = src/vector/vrect.cpp; sourceTree = SOURCE_ROOT; };
+		11FC1E1D9A144BEEB3CE6ACD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieanimation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieanimation.cpp; path = src/lottie/lottieanimation.cpp; sourceTree = SOURCE_ROOT; };
+		124EE29920B64EF9AB47D336 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbitmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbitmap.cpp; path = src/vector/vbitmap.cpp; sourceTree = SOURCE_ROOT; };
+		24F485293F9C4E98A55A4B71 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vraster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vraster.cpp; path = src/vector/vraster.cpp; sourceTree = SOURCE_ROOT; };
+		2A921ACA257641F18A7F72FC /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiemodel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottiemodel.cpp; path = src/lottie/lottiemodel.cpp; sourceTree = SOURCE_ROOT; };
+		34D5A279EFBA482F8D8C2F9C /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbrush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbrush.cpp; path = src/vector/vbrush.cpp; sourceTree = SOURCE_ROOT; };
+		350E1C9C4D19405FB55A7FAD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbezier.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vbezier.cpp; path = src/vector/vbezier.cpp; sourceTree = SOURCE_ROOT; };
+		36A32873B28740F0BD9786E3 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdasher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdasher.cpp; path = src/vector/vdasher.cpp; sourceTree = SOURCE_ROOT; };
+		43CE5E1E7F344812A542E4CA /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_sse2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawhelper_sse2.cpp; path = src/vector/vdrawhelper_sse2.cpp; sourceTree = SOURCE_ROOT; };
+		5530068D30CA41A4829F195F /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/stb_image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stb_image.cpp; path = src/vector/stb/stb_image.cpp; sourceTree = SOURCE_ROOT; };
+		5B359AE5267841138DA87E4C /* rlottie-image-loader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "librlottie-image-loader.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE0DE53D7084F6D990F3CF7 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieproxymodel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieproxymodel.cpp; path = src/lottie/lottieproxymodel.cpp; sourceTree = SOURCE_ROOT; };
+		629237078DF843E4B447B169 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpathmesure.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vpathmesure.cpp; path = src/vector/vpathmesure.cpp; sourceTree = SOURCE_ROOT; };
+		649706F2CC944AC2B47C6E52 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawhelper.cpp; path = src/vector/vdrawhelper.cpp; sourceTree = SOURCE_ROOT; };
+		77690EF0DE874E7DB42EF5FF /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vimageloader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vimageloader.cpp; path = src/vector/vimageloader.cpp; sourceTree = SOURCE_ROOT; };
+		8AECA012DAB64AD1B54307C2 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = example/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8ED6BFF36AAE470BB680EA64 /* lottie2gif */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = lottie2gif; sourceTree = BUILT_PRODUCTS_DIR; };
+		9589AC5DAFFD428D980E9BE0 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_stroker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = v_ft_stroker.cpp; path = src/vector/freetype/v_ft_stroker.cpp; sourceTree = SOURCE_ROOT; };
+		9A0E3AC537044A08AE2CFBDD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9A386E265A6046E1B42072BB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiekeypath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottiekeypath.cpp; path = src/lottie/lottiekeypath.cpp; sourceTree = SOURCE_ROOT; };
+		9AC1D7C2BEEB4C239CB683AB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vmatrix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vmatrix.cpp; path = src/vector/vmatrix.cpp; sourceTree = SOURCE_ROOT; };
+		A2550120861C4EEDB3CB56BD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vrle.cpp; path = src/vector/vrle.cpp; sourceTree = SOURCE_ROOT; };
+		A33C397A8B2B479D899E043D /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieparser.cpp; path = src/lottie/lottieparser.cpp; sourceTree = SOURCE_ROOT; };
+		A7A7263958534FBB96486B3B /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/vector/stb/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AA06883D53554DF383911A4C /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_raster.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = v_ft_raster.cpp; path = src/vector/freetype/v_ft_raster.cpp; sourceTree = SOURCE_ROOT; };
+		AA5B99EC072046A9AC6FAB04 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_neon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawhelper_neon.cpp; path = src/vector/vdrawhelper_neon.cpp; sourceTree = SOURCE_ROOT; };
+		B118695BEB514C96AEFFC441 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/lottie2gif.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottie2gif.cpp; path = example/lottie2gif.cpp; sourceTree = SOURCE_ROOT; };
+		B6F2E55ED7B74D509BA4DD15 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/velapsedtimer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = velapsedtimer.cpp; path = src/vector/velapsedtimer.cpp; sourceTree = SOURCE_ROOT; };
+		B8D69054F3744272AFF1A423 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdebug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdebug.cpp; path = src/vector/vdebug.cpp; sourceTree = SOURCE_ROOT; };
+		BF26C20A8DC24228A67DB59A /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vcompositionfunctions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vcompositionfunctions.cpp; path = src/vector/vcompositionfunctions.cpp; sourceTree = SOURCE_ROOT; };
+		C7C577DDE721436FA16DEA94 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CABDDA7205E94E2AB306F313 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vinterpolator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vinterpolator.cpp; path = src/vector/vinterpolator.cpp; sourceTree = SOURCE_ROOT; };
+		CDAA556D62194BDCA0AD1E50 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vdrawable.cpp; path = src/vector/vdrawable.cpp; sourceTree = SOURCE_ROOT; };
+		DD2CA77EECBD439ABB417EC0 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieloader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieloader.cpp; path = src/lottie/lottieloader.cpp; sourceTree = SOURCE_ROOT; };
+		E14C995B1ACC411297104DAB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_math.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = v_ft_math.cpp; path = src/vector/freetype/v_ft_math.cpp; sourceTree = SOURCE_ROOT; };
+		E18D173C0C6749848AB93971 /* rlottie */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = librlottie.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E990959D9A834DDAB143EA6E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman/vregion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vregion.cpp; path = src/vector/pixman/vregion.cpp; sourceTree = SOURCE_ROOT; };
+		EEEB521AF8F04999ABBB2F1D /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieitem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieitem.cpp; path = src/lottie/lottieitem.cpp; sourceTree = SOURCE_ROOT; };
+		F4BE3149C05D492FA2190EA8 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c/lottieanimation_capi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lottieanimation_capi.cpp; path = src/binding/c/lottieanimation_capi.cpp; sourceTree = SOURCE_ROOT; };
+		FA2E47512BB04B47B1154FFF /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpainter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vpainter.cpp; path = src/vector/vpainter.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DB5C54D8B7A4135A47EFD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CF0DCE19A984C9089B695B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD7F4DCB8B641F097881680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197F331C7E624EF4A2A39B87 = {
+			isa = PBXGroup;
+			children = (
+				FAAD47725FDE45C7B86485BB /* ALL_BUILD */,
+				5E0CE72ABD72412FA34B15BF /* lottie2gif */,
+				C959F9B1021D42389696A076 /* rlottie */,
+				E2E5674578234A258F0507C0 /* rlottie-image-loader */,
+				DCE0F13243224AA4AD304478 /* Products */,
+				1FC7789F239344A8ABAF2DA4 /* Frameworks */,
+				911C78913CF7456BA167F567 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		1A555D3640334A639CC76097 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE3149C05D492FA2190EA8 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c/lottieanimation_capi.cpp */,
+				11FC1E1D9A144BEEB3CE6ACD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieanimation.cpp */,
+				EEEB521AF8F04999ABBB2F1D /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieitem.cpp */,
+				9A386E265A6046E1B42072BB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiekeypath.cpp */,
+				DD2CA77EECBD439ABB417EC0 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieloader.cpp */,
+				2A921ACA257641F18A7F72FC /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiemodel.cpp */,
+				A33C397A8B2B479D899E043D /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieparser.cpp */,
+				5DE0DE53D7084F6D990F3CF7 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieproxymodel.cpp */,
+				E14C995B1ACC411297104DAB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_math.cpp */,
+				AA06883D53554DF383911A4C /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_raster.cpp */,
+				9589AC5DAFFD428D980E9BE0 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_stroker.cpp */,
+				E990959D9A834DDAB143EA6E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman/vregion.cpp */,
+				350E1C9C4D19405FB55A7FAD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbezier.cpp */,
+				124EE29920B64EF9AB47D336 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbitmap.cpp */,
+				34D5A279EFBA482F8D8C2F9C /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbrush.cpp */,
+				BF26C20A8DC24228A67DB59A /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vcompositionfunctions.cpp */,
+				36A32873B28740F0BD9786E3 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdasher.cpp */,
+				B8D69054F3744272AFF1A423 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdebug.cpp */,
+				CDAA556D62194BDCA0AD1E50 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawable.cpp */,
+				649706F2CC944AC2B47C6E52 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper.cpp */,
+				AA5B99EC072046A9AC6FAB04 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_neon.cpp */,
+				43CE5E1E7F344812A542E4CA /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_sse2.cpp */,
+				B6F2E55ED7B74D509BA4DD15 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/velapsedtimer.cpp */,
+				77690EF0DE874E7DB42EF5FF /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vimageloader.cpp */,
+				CABDDA7205E94E2AB306F313 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vinterpolator.cpp */,
+				9AC1D7C2BEEB4C239CB683AB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vmatrix.cpp */,
+				FA2E47512BB04B47B1154FFF /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpainter.cpp */,
+				043B4DDCD8884BFBAD9BC607 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpath.cpp */,
+				629237078DF843E4B447B169 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpathmesure.cpp */,
+				24F485293F9C4E98A55A4B71 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vraster.cpp */,
+				11EDC3430715405F916B5D55 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrect.cpp */,
+				A2550120861C4EEDB3CB56BD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrle.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1FC7789F239344A8ABAF2DA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E0CE72ABD72412FA34B15BF /* lottie2gif */ = {
+			isa = PBXGroup;
+			children = (
+				B16D2E78AD37449CBDD7A889 /* Source Files */,
+				8AECA012DAB64AD1B54307C2 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/CMakeLists.txt */,
+			);
+			name = lottie2gif;
+			sourceTree = "<group>";
+		};
+		6C4EAAFBEB354D968126D4E0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5530068D30CA41A4829F195F /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/stb_image.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		911C78913CF7456BA167F567 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B16D2E78AD37449CBDD7A889 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B118695BEB514C96AEFFC441 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/lottie2gif.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C8C92145BA5D48E29FD978E5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C959F9B1021D42389696A076 /* rlottie */ = {
+			isa = PBXGroup;
+			children = (
+				1A555D3640334A639CC76097 /* Source Files */,
+				9A0E3AC537044A08AE2CFBDD /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/CMakeLists.txt */,
+			);
+			name = rlottie;
+			sourceTree = "<group>";
+		};
+		DCE0F13243224AA4AD304478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED6BFF36AAE470BB680EA64 /* lottie2gif */,
+				E18D173C0C6749848AB93971 /* rlottie */,
+				5B359AE5267841138DA87E4C /* rlottie-image-loader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2E5674578234A258F0507C0 /* rlottie-image-loader */ = {
+			isa = PBXGroup;
+			children = (
+				6C4EAAFBEB354D968126D4E0 /* Source Files */,
+				A7A7263958534FBB96486B3B /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/CMakeLists.txt */,
+			);
+			name = "rlottie-image-loader";
+			sourceTree = "<group>";
+		};
+		FAAD47725FDE45C7B86485BB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C8C92145BA5D48E29FD978E5 /* CMake Rules */,
+				C7C577DDE721436FA16DEA94 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A740186FF898B049BB5FD5B0 /* lottie2gif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E89041942934496B8F6960E8 /* Build configuration list for PBXNativeTarget "lottie2gif" */;
+			buildPhases = (
+				9F6BCA4FF7A447F4A4FC2D03 /* Sources */,
+				FCD7F4DCB8B641F097881680 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB3F1FEDE24EE6853E3FAF /* PBXTargetDependency */,
+				4834748A16A14C998CDBBDB7 /* PBXTargetDependency */,
+			);
+			name = lottie2gif;
+			productName = lottie2gif;
+			productReference = 8ED6BFF36AAE470BB680EA64 /* lottie2gif */;
+			productType = "com.apple.product-type.tool";
+		};
+		CF11E329B35A9157AFB27442 /* rlottie-image-loader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C7782600634D82BE340461 /* Build configuration list for PBXNativeTarget "rlottie-image-loader" */;
+			buildPhases = (
+				8DE7F004A0C54FD8A75F7C6D /* Sources */,
+				5DB5C54D8B7A4135A47EFD9A /* Frameworks */,
+				468891165EF05DC9F80B71E4 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FA03C3A086247E18E7776DF /* PBXTargetDependency */,
+			);
+			name = "rlottie-image-loader";
+			productName = "rlottie-image-loader";
+			productReference = 5B359AE5267841138DA87E4C /* rlottie-image-loader */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		F7F2FB2081CD07F54FB63133 /* rlottie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193E03318CB64F1593A9AAE8 /* Build configuration list for PBXNativeTarget "rlottie" */;
+			buildPhases = (
+				1CA14566D8E14B4C8E099CDB /* Sources */,
+				7CF0DCE19A984C9089B695B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5612C367CBC4D098B00C27D /* PBXTargetDependency */,
+			);
+			name = rlottie;
+			productName = rlottie;
+			productReference = E18D173C0C6749848AB93971 /* rlottie */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12AE8E63E554D33A9D2DECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = 655C3713E31D4B04A557F11B /* Build configuration list for PBXProject "rlottie" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BBF5F3C1D09A4AC98FC0E735 /* Debug */,
+				ABA899D0ED47404BBBD793DE /* Release */,
+				088B53A20C5C446F8998A8D7 /* MinSizeRel */,
+				50763D6DA7BF48BDB2D7E64F /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 197F331C7E624EF4A2A39B87;
+			projectDirPath = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie";
+			projectRoot = "";
+			targets = (
+				2329315C3339D3291E714609 /* ALL_BUILD */,
+				3A9D0789BDC228E07E89D62A /* install */,
+				A740186FF898B049BB5FD5B0 /* lottie2gif */,
+				F7F2FB2081CD07F54FB63133 /* rlottie */,
+				CF11E329B35A9157AFB27442 /* rlottie-image-loader */,
+				742920DBE680D69C486B0161 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		468891165EF05DC9F80B71E4 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/Debug/librlottie-image-loader.dylib /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/Debug/librlottie-image-loader.dylib /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/Debug/librlottie-image-loader.dylib
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/Release/librlottie-image-loader.dylib /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/Release/librlottie-image-loader.dylib /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/Release/librlottie-image-loader.dylib
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/MinSizeRel/librlottie-image-loader.dylib /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/MinSizeRel/librlottie-image-loader.dylib /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/MinSizeRel/librlottie-image-loader.dylib
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb
+  /opt/homebrew/bin/cmake -E cmake_symlink_library /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/RelWithDebInfo/librlottie-image-loader.dylib /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/RelWithDebInfo/librlottie-image-loader.dylib /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/RelWithDebInfo/librlottie-image-loader.dylib
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  /opt/homebrew/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D38ABA3E8C50F804CF1E27BB /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  make -f /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  make -f /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  make -f /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  make -f /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D499CF736EC5FDAB17808ED7 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA14566D8E14B4C8E099CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DE339F62DC4C098E4021B2 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c/lottieanimation_capi.cpp */,
+				2BDDECE43B2740B286B30E8B /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieanimation.cpp */,
+				E580709C44E14DE092E6D6F1 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieitem.cpp */,
+				5B3DB06302D848C19B4CC619 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiekeypath.cpp */,
+				5E59EC77F27C47D8811C7DE3 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieloader.cpp */,
+				7C908ADBD7144790BDA33FDA /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottiemodel.cpp */,
+				7B1E0EB45A8746EEA8DDACD3 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieparser.cpp */,
+				2F64B1F468784D47A508C17A /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie/lottieproxymodel.cpp */,
+				57E087A8759A4B19965BC83E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_math.cpp */,
+				D62A4B6FDADE4D62B6EC2FD9 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_raster.cpp */,
+				C1E318CB6AA9464A8F347F3E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype/v_ft_stroker.cpp */,
+				967D49FE02714DC58792404F /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman/vregion.cpp */,
+				993589ED0C8B4E228FD94364 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbezier.cpp */,
+				AE28644F51B84E7EAB803A24 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbitmap.cpp */,
+				19ACEBD2A26A4F1F8B9F7E58 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vbrush.cpp */,
+				55C7206B549F4B3F9E71931F /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vcompositionfunctions.cpp */,
+				2FA8E302AA9F45FFA5B8D881 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdasher.cpp */,
+				35DAA13C8A664599883DF155 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdebug.cpp */,
+				210096A12D534FF8AA13CB3E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawable.cpp */,
+				45D86FAFD7C74DB8936EC4EC /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper.cpp */,
+				390E75B93AA748C3A9727C73 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_neon.cpp */,
+				5D46629B3C7C48739B1E8334 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vdrawhelper_sse2.cpp */,
+				A9E58CC1EC914A0D8284A845 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/velapsedtimer.cpp */,
+				705CA71A20C74570A2DCB001 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vimageloader.cpp */,
+				78C2A216318942CA872EBD2A /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vinterpolator.cpp */,
+				D9F4ABB42D2E435DB6EB94F7 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vmatrix.cpp */,
+				F54877DAAE60489CA8A2AEB6 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpainter.cpp */,
+				FD975FFEF18C48628B6A45CB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpath.cpp */,
+				F12D1A15FF674B439AA4C49E /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vpathmesure.cpp */,
+				C4E018C780244CA2A1F4C8BA /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vraster.cpp */,
+				81F01FB217574D57AA1E1AC6 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrect.cpp */,
+				A8058F5BF9434F9EAFA3ECB0 /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/vrle.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE7F004A0C54FD8A75F7C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0D8458F52F4267961C230B /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/stb/stb_image.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6BCA4FF7A447F4A4FC2D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4586150854E94EF2BC9DECBB /* /Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/lottie2gif.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4834748A16A14C998CDBBDB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F2FB2081CD07F54FB63133 /* rlottie */;
+			targetProxy = 8FEE74D894F74C56A2E07163 /* PBXContainerItemProxy */;
+		};
+		52C4E76D245F43C59A1766A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2329315C3339D3291E714609 /* ALL_BUILD */;
+			targetProxy = 4BEB2F40B61A48C6952056F3 /* PBXContainerItemProxy */;
+		};
+		7460FF068F954B389FBD3CF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF11E329B35A9157AFB27442 /* rlottie-image-loader */;
+			targetProxy = 2DEF288B29F347C781AD3278 /* PBXContainerItemProxy */;
+		};
+		9FA03C3A086247E18E7776DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742920DBE680D69C486B0161 /* ZERO_CHECK */;
+			targetProxy = 075B60A87D9B486890837AD3 /* PBXContainerItemProxy */;
+		};
+		BBEB3F1FEDE24EE6853E3FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742920DBE680D69C486B0161 /* ZERO_CHECK */;
+			targetProxy = 879A433966C5406A899C50E1 /* PBXContainerItemProxy */;
+		};
+		D4E60D5A38F2405E8FF8DF0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A740186FF898B049BB5FD5B0 /* lottie2gif */;
+			targetProxy = 9C91931A362B45BEA6B9B26C /* PBXContainerItemProxy */;
+		};
+		D5612C367CBC4D098B00C27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742920DBE680D69C486B0161 /* ZERO_CHECK */;
+			targetProxy = E9C1709EBE0D423F8F7B8D8B /* PBXContainerItemProxy */;
+		};
+		E3A74E15D01E403E9475A99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F2FB2081CD07F54FB63133 /* rlottie */;
+			targetProxy = ADB30D8E14F94FBCA7736CDE /* PBXContainerItemProxy */;
+		};
+		F1AF5E74333D4EC9991F3493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742920DBE680D69C486B0161 /* ZERO_CHECK */;
+			targetProxy = 049C11AAFA214F58B2722E1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		147995FF535844E3BEB0C258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/example/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/../inc","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32     -DNDEBUG '-std=gnu++17' '-std=c++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/Release/librlottie.a","-Wl, -undefined error","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lottie2gif;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/lottie2gif.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		15850B489C234DCB8ECC76E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LOT_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32    '-std=gnu++17' -fPIC '-fvisibility=hidden' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "rlottie-image-loader";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/rlottie-image-loader.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1AECF9B562A044779B1CCAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/inc","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32    '-std=gnu++17' '-std=c++14' -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -fno-rtti -Wall -Werror -Wextra -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-parameter '-fvisibility=hidden' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rlottie;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/rlottie.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2C4FBAA3A02248A7A03BB82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2F58DD76DAE14277806D2DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		33F16E6F2DE541A58FC2A712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = "";
+				SYMROOT = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build";
+			};
+			name = Debug;
+		};
+		35D273FCC8964BA4B2477984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		39A222AE0B494923AB0E2546 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3D16237C7025485896A7BE6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build";
+			};
+			name = Release;
+		};
+		4897891D260A433B9D995D51 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4C2C8AE177FE4D61831FC954 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/example/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/../inc","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32     -DNDEBUG '-std=gnu++17' '-std=c++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/MinSizeRel/librlottie.a","-Wl, -undefined error","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lottie2gif;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/lottie2gif.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4FF4D6E9C38C495D90028D37 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/example/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/../inc","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32        -DNDEBUG '-std=gnu++17' '-std=c++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/RelWithDebInfo/librlottie.a","-Wl, -undefined error","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lottie2gif;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/lottie2gif.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		506305E984EA46DCAE578A46 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		613BF8F35287451D970E6F76 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LOT_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32     -DNDEBUG '-std=gnu++17' -fPIC '-fvisibility=hidden' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "rlottie-image-loader";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/rlottie-image-loader.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6238E1C2DD414CDA974BE5C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/inc","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32     -DNDEBUG '-std=gnu++17' '-std=c++14' -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -fno-rtti -Wall -Werror -Wextra -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-parameter '-fvisibility=hidden' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rlottie;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/rlottie.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		674CD090285048E2B6EA92E7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		696767D85BA04AE89ABECD5E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6BE2C73540994A6691251B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/inc","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32     -DNDEBUG '-std=gnu++17' '-std=c++14' -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -fno-rtti -Wall -Werror -Wextra -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-parameter '-fvisibility=hidden' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rlottie;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/rlottie.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		75B49CCEFA264E919D7B2295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/example/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/example/../inc","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32    '-std=gnu++17' '-std=c++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/Debug/librlottie.a","-Wl, -undefined error","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = lottie2gif;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/lottie2gif.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7BC7DCF920C84D1290ABC468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		81540E38890F4977A62BEC87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8E5320EF731E4FA5880CC323 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LOT_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32        -DNDEBUG '-std=gnu++17' -fPIC '-fvisibility=hidden' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "rlottie-image-loader";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/rlottie-image-loader.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A03C6A84DC144E66B866644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LOT_BUILD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32     -DNDEBUG '-std=gnu++17' -fPIC '-fvisibility=hidden' ";
+				OTHER_LDFLAGS = (" -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "rlottie-image-loader";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/rlottie-image-loader.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AFC10BF9298844F899A6E53E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B651D112466F4059A0B11959 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build";
+			};
+			name = MinSizeRel;
+		};
+		C05F00D0FF2E4FB896458173 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F4C2658D9DC945B3962B242D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build";
+			};
+			name = RelWithDebInfo;
+		};
+		FFBC4C5B77204410B9F86E1E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/inc","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/freetype","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector/pixman","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/vector","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/lottie","/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/src/binding/c","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "-DLOTTIE_DISABLE_ARM_NEON=1 -DLOTTIE_THREAD_SAFE=1 -DLOTTIE_IMAGE_MODULE_DISABLED=1 -Wno-error=shorten-64-to-32        -DNDEBUG '-std=gnu++17' '-std=c++14' -fno-exceptions -fno-unwind-tables -fno-asynchronous-unwind-tables -fno-rtti -Wall -Werror -Wextra -Wnon-virtual-dtor -Woverloaded-virtual -Wno-unused-parameter '-fvisibility=hidden' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rlottie;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/build/rlottie.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C7782600634D82BE340461 /* Build configuration list for PBXNativeTarget "rlottie-image-loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15850B489C234DCB8ECC76E5 /* Debug */,
+				A03C6A84DC144E66B866644A /* Release */,
+				613BF8F35287451D970E6F76 /* MinSizeRel */,
+				8E5320EF731E4FA5880CC323 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		193E03318CB64F1593A9AAE8 /* Build configuration list for PBXNativeTarget "rlottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AECF9B562A044779B1CCAC2 /* Debug */,
+				6BE2C73540994A6691251B0E /* Release */,
+				6238E1C2DD414CDA974BE5C4 /* MinSizeRel */,
+				FFBC4C5B77204410B9F86E1E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D047847E7614DA9BD0A4EB5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81540E38890F4977A62BEC87 /* Debug */,
+				C05F00D0FF2E4FB896458173 /* Release */,
+				39A222AE0B494923AB0E2546 /* MinSizeRel */,
+				696767D85BA04AE89ABECD5E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6011ACCF644848F38532E43D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC7DCF920C84D1290ABC468 /* Debug */,
+				35D273FCC8964BA4B2477984 /* Release */,
+				674CD090285048E2B6EA92E7 /* MinSizeRel */,
+				506305E984EA46DCAE578A46 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		655C3713E31D4B04A557F11B /* Build configuration list for PBXProject "rlottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F16E6F2DE541A58FC2A712 /* Debug */,
+				3D16237C7025485896A7BE6F /* Release */,
+				B651D112466F4059A0B11959 /* MinSizeRel */,
+				F4C2658D9DC945B3962B242D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6AEA7F9A360846CBA651A343 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F58DD76DAE14277806D2DE2 /* Debug */,
+				2C4FBAA3A02248A7A03BB82E /* Release */,
+				4897891D260A433B9D995D51 /* MinSizeRel */,
+				AFC10BF9298844F899A6E53E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E89041942934496B8F6960E8 /* Build configuration list for PBXNativeTarget "lottie2gif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B49CCEFA264E919D7B2295 /* Debug */,
+				147995FF535844E3BEB0C258 /* Release */,
+				4C2C8AE177FE4D61831FC954 /* MinSizeRel */,
+				4FF4D6E9C38C495D90028D37 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12AE8E63E554D33A9D2DECD /* Project object */;
+}

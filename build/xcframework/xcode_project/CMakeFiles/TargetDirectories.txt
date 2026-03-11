@@ -1,0 +1,16 @@
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeFiles/rlottie.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeFiles/ALL_BUILD.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/CMakeFiles/ZERO_CHECK.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/inc/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/freetype/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/pixman/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/CMakeFiles/rlottie-image-loader.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/lottie/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/binding/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/binding/c/CMakeFiles/install.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/example/CMakeFiles/lottie2gif.dir
+/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/example/CMakeFiles/install.dir

@@ -1,0 +1,71 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "73a0284a636896585ec82f1fa0ca64dc6020364911a2b3279cecaaf70d635be3"
+    }
+  ],
+  "containerPath" : "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/rlottie.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx26.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/e.a.kolesnikov/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/e.a.kolesnikov/Library/Developer/Xcode/DerivedData/rlottie-chcehamyeaolaoehtghizxhpfcdm/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/e.a.kolesnikov/Library/Developer/Xcode/DerivedData/rlottie-chcehamyeaolaoehtghizxhpfcdm/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "BUILD_LIBRARIES_FOR_DISTRIBUTION" : "YES",
+          "CONFIGURATION_BUILD_DIR" : "/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/products/ios-arm64",
+          "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+          "ONLY_ACTIVE_ARCH" : "NO",
+          "SDKROOT" : "iphoneos26.2",
+          "SKIP_INSTALL" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "120",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

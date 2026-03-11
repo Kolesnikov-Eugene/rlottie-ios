@@ -1,0 +1,17 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/inc/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/freetype/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/pixman/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/vector/stb/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/lottie/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/binding/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/src/binding/c/cmake_install.cmake",
+		"/Users/e.a.kolesnikov/rlottie-telegram/rlottie-telegram-fork/rlottie/build/xcframework/xcode_project/example/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
